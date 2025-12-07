@@ -52,21 +52,20 @@ Data format
   - description: string
 
   Example `data.json` entry:
-```json
-[
+
+
   {
     "amount": 8500.0,
     "date": "2025-12-06",
     "category": "Food",
     "description": "Lunch"
   }
-]
 
 - Backup current data.json:
 ('from the project directory')
   ```cmd
   copy data.json data.json.bak
-  ```
+ 
 ## Inspiration 
  - I daily use money manager application so i thought it would be cool if i could do it from my laptop. I'm not a cs major so it's not advanced but i tried my best. 
  ## Reference
