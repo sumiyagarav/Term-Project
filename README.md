@@ -3,7 +3,7 @@
 ## Introduction
 SEOULTECH OSS-Term Project
 
-This is a simple personal expense tracker with cli, CSV export, and visualization.
+This is a simple personal expense tracker with cli, csv export, and visualization.
 
 ## Prerequisites
 - Python
@@ -61,12 +61,6 @@ Data format
     "description": "Lunch"
   }
 ]
-
-- Test the formatter:
-  ```cmd
-  python -c "from utils import format_won; print(format_won(123456.87))"
-  # Expected: ₩123,457
-  ```
 
 - Backup current data.json:
 ('from the project directory')
